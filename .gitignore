@@ -1,0 +1,40 @@
+# Secrets, Keys & Credentials
+.env
+.env.*
+*.key
+*.pem
+*.p12
+*.pfx
+*secret*
+*credentials*
+endpoint.json
+core_memory.json
+
+# Private Models & Proprietary Assets (Strictly Private)
+ban-*/
+tos-*/
+tos_*/
+
+# Databases & Local State Ledgers
+*.db
+*.sqlite
+*.sqlite3
+*.db-shm
+*.db-wal
+*.jsonl
+data/
+.agents/
+
+# Python / Virtual Environments / Caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+build/
+dist/
+
+# macOS / OS Metadata
+.DS_Store
