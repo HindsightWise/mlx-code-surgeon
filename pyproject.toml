@@ -1,0 +1,12 @@
+[project]
+name = "mlx-code-surgeon"
+version = "0.1.0"
+description = "Apple Silicon M1 MLX Speculative Code Surgeon (Qwen2.5-Coder-7B-4bit + 0.5B-4bit Draft)"
+requires-python = ">=3.12"
+dependencies = [
+    "huggingface-hub>=2.3.0",
+    "mlx-lm>=0.32.2",
+]
+
+[project.scripts]
+mlx-surgeon = "surgeon:main"
