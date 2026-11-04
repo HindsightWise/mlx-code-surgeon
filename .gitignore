@@ -38,3 +38,28 @@ dist/
 
 # macOS / OS Metadata
 .DS_Store
+<<<<<<< HEAD
+=======
+
+# --- Sovereign Auto-Save Sieve (Auto-Managed) ---
+env/
+node_modules/
+target/
+.mypy_cache/
+dist/build-cache/
+*.kmx
+*.kmb
+*.safetensors
+*.gguf
+*.onnx
+*.pt
+*.pth
+*.h5
+*.log
+logs/
+!.env.example
+.kaggle/
+oauth_creds.json
+*secret*.json
+*credentials*.json
+>>>>>>> 7001fb4 (chore(autosave): milestone:private-first-autosave-vault [7 files: .gitignore, .python-version, README.md, mcp_server.py (+3 more)])
