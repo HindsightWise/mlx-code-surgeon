@@ -60,3 +60,6 @@ logs/
 oauth_creds.json
 *secret*.json
 *credentials*.json
+
+# --- Sovereign Auto-Save Sieve (Auto-Managed) ---
+.lake/
